@@ -1,0 +1,517 @@
+$black-rock: #2c2e37;
+$dark-gray: #44464d;
+$gray-61: #9c9c9c;
+$gray-icon: #999999;
+$gray-border: #42434b;
+$gray-placeholder: #6a6b70;
+$white: #ffffff;
+$light-gray: #fafafa;
+
+body {
+	font-family: "OpenSans", sans-serif;
+	color: $gray-61;
+	font-size: 16px;
+	overflow-x: hidden !important;
+}
+
+.fa {
+	color: $gray-icon;
+}
+
+/* font-family: "RalewayMedium"; */
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"),
+    url("../fonts/RalewayMedium/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayBold"; */
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+    url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayExtraBold"; */
+@font-face {
+    font-family: "RalewayExtraBold";
+    src: url("../fonts/RalewayExtraBold/RalewayExtraBold.eot");
+    src: url("../fonts/RalewayExtraBold/RalewayExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayExtraBold/RalewayExtraBold.woff") format("woff"),
+    url("../fonts/RalewayExtraBold/RalewayExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "OpenSans"; */
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Header */
+
+.logo {
+	margin: 20px;
+}
+
+.icon {
+	margin: 20px;
+}
+
+.stone {
+	height: 935px;
+	background-image: url(../img/stone.jpg);
+	background-size: cover;
+	overflow: hidden;
+	background-position: center;
+}
+
+.hero {
+	height: 935px;
+	background-image: url(../img/hero.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.inside-studio {
+	color: $white; 
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #f84444;
+  padding: 10px 10px; 
+}
+
+.frostbite {
+	font-family: "RalewayBold";
+	color: $white; 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 60px;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+  margin-top: 30px;
+}
+
+.tbl {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.tbl-cell {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* Main info */
+
+.topic {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.topic-text {
+	font-family: "RalewayExtraBold";
+	text-transform: uppercase;
+	color: $black-rock;
+	font-weight: bold;
+	line-height: 150%;
+}
+
+.waves {
+	height: 10px;
+	margin-bottom: 20px;
+}
+
+.who-we-are {
+	margin-bottom: 35px;
+}
+
+.who-we-are-text, .what-we-do-text {
+  padding-top: 5%;
+  padding-left: 20px;
+}
+
+.who-we-are img, .what-we-do img{
+	width: 100%;
+}
+
+
+.who-we-are-text p, .what-we-do-text p, .main-info-text-block p{
+	line-height: 2;
+}
+
+.main-info hr {
+	display: none;
+}
+
+.main-info-text-block {
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+
+.main-info-buttons {
+	margin-bottom: 80px;
+}
+
+.button-journal {
+	display: inline-block;
+	width: 150px;
+	color: $white; 
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-weight: bold;
+  user-select: none; 
+  background: #f84444;
+  padding: 13px 0; 
+  outline: none; /* убирать контур в Mozilla */
+  margin-right: 25px;
+}
+
+.button-our-story {
+	display: inline-block;
+	width: 150px;
+	color: #818181; 
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-weight: bold;
+  user-select: none; 
+  background: $white;
+  border: 3px solid #e6e6e6;
+  padding: 10px 0; 
+  outline: none; /* убирать контур в Mozilla */
+}
+
+
+
+
+/* Latest projects */
+
+.latest-projects {
+	background-image: linear-gradient(to bottom, $black-rock 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%, $black-rock 100%);
+	margin-top: 80px;
+}
+
+.latest-projects-topic{
+	padding-top: 80px;
+	color: $white;
+}
+
+.latest-projects-topic-text {
+	color: #56585f;
+}
+
+.button-view-projects {
+	display: inline-block;
+	width: 150px;
+	color: $white; 
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-weight: bold;
+  user-select: none; 
+  background: #f84444;
+  padding: 13px 0; 
+  outline: none; /* убирать контур в Mozilla */
+}
+
+.button-contact {
+	display: inline-block;
+	width: 150px;
+	color: $white; 
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-weight: bold;
+  user-select: none; 
+  background: #2c2e37;
+  border: 3px solid #56585f;
+  padding: 10px 0; 
+  outline: none; /* убирать контур в Mozilla */
+}
+
+.case-studies {
+	margin-top: 80px;
+}
+
+.case img{
+	width: 95%;
+}
+
+.room img{
+	width: 90%;
+	margin-top: 20%;
+}
+
+.line {
+	position: relative;
+	top: 70px;
+}
+
+.time {
+	font-style: italic;
+}
+
+
+
+
+/* Our Journal */
+
+.our-journal {
+	background-color: $light-gray;
+	margin-top: 150px;
+	padding-bottom: 150px;
+	overflow-x: hidden;
+}
+
+.our-journal-topic {
+	padding-top: 50%;
+}
+
+.our-journal-img1 {
+	width: 120%;
+	margin-top: -50px;
+}
+
+.our-journal-img2 {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	z-index: 10;
+	width: 30%;
+}
+
+.button-read-more{
+	display: inline-block;
+	width: 150px;
+	color: $white; 
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-weight: bold;
+  user-select: none; 
+  background: #f84444;
+  padding: 13px 0; 
+  outline: none;
+}
+
+/* Our team */
+
+.our-team {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.profile {
+	margin-bottom: 50px;
+}
+
+.name {
+	font-family: "RalewayExtraBold";
+	font-weight: bold;
+	color: $black-rock;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.position {
+	font-family: "RalewayMedium";
+	text-transform: uppercase;
+	color: $dark-gray;
+}
+
+.description {
+	margin-bottom: 25px;
+}
+
+
+/* Sotial icons*/
+
+.social-icons {
+	margin-bottom: 80px;
+}
+
+.slack {
+	background: url(../img/slack.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 25px;
+}
+
+.adobe {
+	background: url(../img/adobe.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 37px;
+	height: 32px;	
+	margin: auto;
+}
+
+.google {
+	background: url(../img/google.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 30px;	
+	margin: auto;
+}
+
+.facebook {
+	background: url(../img/facebook.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 18px;	
+	margin: auto;
+}
+
+.spotify {
+	background: url(../img/spotify.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 25px;	
+	margin: auto;
+}
+
+.nike {
+	background: url(../img/nike.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 75px;
+	height: 30px;	
+}
+
+/* Footer */
+footer{
+	font-family: "OpenSans";
+	padding-top: 80px;
+	padding-bottom: 50px;
+	background-color: $black-rock;
+	color: $white;
+	font-size: 12px;
+}
+
+.logo-footer {
+	margin-bottom: 50px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 50px;
+}
+
+foooter ul a, foooter ul a:hover {
+	text-decoration: none;
+}
+
+footer ul li {
+	margin-bottom: 20px;
+	color: $white;
+}
+
+form {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+footer input[type="text"] {
+	width: 80%;
+	height: 35px;
+	border: 2px solid $gray-border;
+	background-color: $black-rock;
+}
+
+footer input[type="submit"] {
+	background: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 25%;
+	top: 12px;
+	border: none;
+}
+
+::-webkit-input-placeholder {color:$gray-placeholder;
+padding-left: 15px;}
+::-moz-placeholder          {color:$gray-placeholder; padding-left: 15px;}/* Firefox 19+ */
+:-moz-placeholder           {color:$gray-placeholder; padding-left: 15px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:$gray-placeholder; padding-left: 15px;}
+
+footer .fa {
+	color: $white;
+	margin-right: 15px;
+}
+
+@media (max-width: 992px) {
+	.frostbite { display:none; }
+
+	.main-info .container { padding: 0px; margin: 0px; width: 100%; }
+	.main-info p, .main-info h4 { padding: 0 50px; }
+
+	.time{ text-align: center; }
+
+	.who-we-are-text, .what-we-do-text {padding-top: 0;}
+	.our-journal { margin-bottom: 0px; margin-top: 80px; padding-bottom: 80px; }
+	.our-journal-topic { padding-top: 30%; }
+	.our-journal-img1 { width: 200%; }
+	.our-journal-img2 { top: 55%; left: 50%; }
+
+	.our-team {margin-top: 0px; }
+
+	footer input[type="text"] {	width: 100%; }
+	footer input[type="submit"] { right: 5%; }	
+}
+
+@media (max-width: 768px) {
+	body p { font-size: 15px; line-height: 1.5; }
+
+	.frostbite { display:none; }
+
+	.main-info .topic-text { margin-top: 50px;}
+	.main-info .topic { margin-top: 30px; margin-bottom: 50px; }
+	.main-info .topic .topic-text { margin-top: 0px; }
+	.main-info .container { padding: 0px; }
+	.main-info p { padding: 0 50px; }
+	.who-we-are-text, .what-we-do-text {padding-top: 0;}
+	.main-info-text-block { margin-top: 50px; }
+	.main-info-text-block p:first-child { margin-bottom: 50px;	}
+	.main-info hr { display: block; margin-top: 50px; }
+	.who-we-are-text, .what-we-do-text { text-align: center; }
+
+	.room {display:none;}
+	.case {text-align: center;}
+	.line {display: none;}
+	.time{ text-align: center; }
+	.latest-projects-topic-text { padding: 0 50px;	}
+	.case-studies-text {
+		text-align: center; padding: 50px 50px; 
+	}
+
+	.our-journal { margin-bottom: 0px; margin-top: 80px; padding-bottom: 0px; }
+	.our-journal .container { padding:0 !important;}
+	.our-journal-topic { padding-top:0; }
+	.our-journal-img1 { width: 100%; }
+	.our-journal-img2 { display: none; }
+	.our-journal-main { padding: 70px 50px; text-align: center;}
+
+	.our-team {margin-top: 0px; }
+	.profile-img { width: 100%; }
+
+	.slack, .adobe, .google, .facebook, .spotify, .nike { margin-bottom: 20px; height: 35px;}
+
+	footer { font-size: 14px; }
+	.fb-twit {text-align: left;}
+	footer input[type="text"] {	width: 100%; }
+	footer input[type="submit"] { right: 5%; }
+}
